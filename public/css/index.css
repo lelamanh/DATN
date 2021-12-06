@@ -1,0 +1,456 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-family: Verdana;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.icon-header {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    height: 100%;
+    width: 20%;
+}
+
+.icon-header:hover {
+    color: goldenrod;
+}
+
+.form-search-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-search-header input {
+    height: 35px;
+    width: 400px;
+    border: none;
+    font-size: 20px;
+    color: black;
+}
+
+.form-search-header input:hover {
+    height: 36px;
+    width: 410px;
+}
+
+.form-search-header button {
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(139, 213, 247);
+    border-radius: 3px;
+}
+
+.form-search-header button:hover {
+    color: black;
+    background-color: rgb(255, 238, 6);
+}
+
+.menu-header {
+    display: flex;
+    justify-content: center;
+}
+
+.topnav-header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.search-header {
+    height: 20px;
+    width: 70px;
+}
+
+.btn-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dropbtn {
+    margin-right: 30px;
+    background-color: rgb(252, 248, 248);
+    color: black;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.dropbtn i {
+    color: rgb(139, 213, 247);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    text-align: center;
+    border-radius: 5px;
+    right: 0;
+    display: none;
+    position: absolute;
+    background-color: rgb(139, 213, 247);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+color:white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: black;
+    color: black;
+}
+
+.login:link,
+a:visited {
+    background-color: none;
+    color: black;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.login:hover,
+a:active {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+}
+
+.menu-section {
+    margin-top: 50px;
+    border: 1px solid white;
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-section-dropbtn {
+    background-color: whitesmoke;
+    color: black;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+
+.menu-section-dropbtn span {
+    width: 60%;
+    text-align: center;
+}
+
+.menu-section-dropbtn i {
+    width: 20%;
+    height: 100%;
+    color: rgb(114, 194, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+
+.menu-section-dropdown {
+    height: 60px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.menu-section-dropdown-content {
+    width: 100%;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    background-color: azure;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.menu-section-dropdown-content a {
+    color: black;
+    width: 100%;
+    height: 40px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-section-dropdown-content a:hover {
+    background-color: rgb(139, 213, 247);
+    font-size: 21px;
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 21px;
+}
+
+.menu-section-dropdown:hover .menu-section-dropdown-content {
+    display: block;
+}
+
+.menu-section-dropdown:hover .menu-section-dropbtn {
+    background-color: azure;
+    color: black;
+    border: 1px solid rgb(139, 213, 247);
+}
+
+.content {
+    border: 1px solid rgb(139, 213, 247);
+    height: 100%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.head-content {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin-top: 30px;
+}
+
+.addbtn {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(139, 213, 247);
+    border: none;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.addbtn a {
+    text-decoration: none;
+    color: black;
+}
+
+.addbtn a:hover {
+    color: white;
+}
+
+.addbtn:hover {
+    border: 1px solid goldenrod;
+    background-color: rgb(37, 236, 193);
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 95%;
+}
+
+th {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+    background-color: rgb(139, 213, 247);
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+}
+
+tr:hover {
+    background-color: #e5f3f3;
+}
+
+.editbtn {
+    text-decoration: none;
+    height: 40px;
+    width: 70px;
+    color: black;
+}
+
+.editbtn i {
+    color: black;
+}
+
+.editbtn:hover {
+    background-color: rgb(219, 241, 18);
+    border: gold;
+}
+
+footer {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    border: 1px solid beige;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(139, 213, 247);   
+}
+
+.col-footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.col-footer h2,
+.col-footer span {
+    color: black;
+}
+
+.col-footer a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+.col-footer a i {
+    font-size: 18px;
+    color: black;
+}
+
+.section-home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(139, 213, 247);
+    margin-bottom: 90px;
+}
+
+.table-home {
+    width: 50%;
+    height: auto;
+}
+
+.table-home td {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+  .alert-success {
+    padding: 20px;
+    background-color: #65e69f;
+    color: white;
+  }
+  .form-change{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .form-change label{
+      margin-top: 10px;
+      padding: 10px;
+      font-size: 18px;
+      font-weight: bold;
+  }
+  .form-change input{
+    padding: 5px;
+    font-size: 15px;
+    width: 400px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid rgb(77, 72, 72);
+    border-radius: 5px;
+}
+.btnchage{
+    border-radius: 4px;
+    margin-left: 15px;
+    text-align: center;
+    margin-top: 15px;
+    height: 35px;
+    width: 100px;
+    color: black;
+    background-color: rgb(139, 213, 247);
+    border: none;
+}
+.btnchage:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(104, 164, 243);
+    border: 1px solid white;
+}
+/* Image preview */
+.image-preview {
+    width: 300px;
+    min-height: 150px;
+    border: 2px solid #dddddd;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #cccccc;
+  }
+  
+  .image-preview__image {
+    display: none;
+    width: 100%;
+  }

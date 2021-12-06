@@ -1,0 +1,172 @@
+   <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/form.css">
+        <link rel="stylesheet" href="./font/fontawesome-free-5.15.4-web/css/all.min.css">
+        <title>Manager Diploma</title>
+    </head>
+
+    <body>
+        <header id="header">
+            <div class="icon-header">
+                <img src="./img/logodiploma.png" alt="">
+            </div>
+            <form class="form-search-header" action="">
+                <input class="" type="text" placeholder="Enter the text">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <div class="btn-header">
+                <div class="topnav-header">
+                    <div class="dropdown">
+                        <button class="dropbtn"><i class="fas fa-user-circle"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#">Account</a>
+                            <a href="#">Email</a>
+                            <a href="#">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="menu-section">
+                <div class="menu-section-dropdown">
+                    <button class="menu-section-dropbtn">
+                    <i class="fas fa-book-medical"></i> 
+                    <span>Dipolma</span>          
+                </button>
+                    <div class="menu-section-dropdown-content">
+                        <a href="#"><i class="fas fa-list"></i> &nbsp; List</a>
+                        <a href="#"><i class="fas fa-plus"></i>&nbsp;Add</a>
+                    </div>
+                </div>
+                <div class="menu-section-dropdown">
+                    <button class="menu-section-dropbtn"><i class="fas fa-users"></i><span>User</span></button>
+                    <div class="menu-section-dropdown-content">
+                        <a href="#"><i class="fas fa-list"></i>&nbsp;List</a>
+                        <a href="#"><i class="fas fa-plus"></i>&nbsp;Add</a>
+                    </div>
+                </div>
+                <div class="menu-section-dropdown">
+                    <button class="menu-section-dropbtn"><i class="fas fa-book-reader"></i><span>Diploma of user</span></button>
+                    <div class="menu-section-dropdown-content">
+                        <a href="#"><i class="fas fa-list"></i>&nbsp;List</a>
+                        <a href="#"><i class="fas fa-plus"></i>&nbsp;Add</a>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="head-content">
+                    <h2>List Content: &nbsp;</h2>
+                </div>
+                <div class="container">
+                    <form action="/action_page.php">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="fname">Văn bằng chứng chỉ:</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="fname" name="firstname" placeholder="Nhập tại đây....">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">Cơ quan cấp:</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="lname" name="lastname" placeholder="Nhập tại đây....">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">Người Nhận:</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="lname" name="lastname" placeholder="Nhập tại đây....">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">Ngày sinh:</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="lname" name="lastname" placeholder="Nhập tại đây....">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">Thời gian bắt đầu:</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="lname" name="lastname" placeholder="Nhập tại đây....">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">Thời gian kết thúc:</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="lname" name="lastname" placeholder="Nhập tại đây....">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="country">Xếp loại:</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" list="airports" name="airports"> 
+                                    <datalist id="airports">
+                                    <option value="Berlin">
+                                    <option value="Los Angeles">
+                                    <option value="Moscow">
+                                    <option value="Paris">
+                                </datalist>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="country">Xếp loại:</label>
+                            </div>
+
+                            <div class="col-75">
+                                <select id="country" name="country">
+                          <option value="australia">Giỏi</option>
+                          <option value="canada">Khá</option>
+                          <option value="usa">Trung Bình</option>\
+                          <option value="usa">Yếu</option>
+                        </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">Ngày cấp:</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="lname" name="lastname" placeholder="Nhập tại đây....">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">Người cấp:</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="lname" name="lastname" placeholder="Nhập tại đây....">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </body>
+
+    </html>

@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-family: Verdana;
+    height: 700px;
+    width: 100%;
+    background-color: white;
+}
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+  .alert-success {
+    padding: 20px;
+    background-color: #65e69f;
+    color: white;
+  }
+.header-login {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+b {
+    font-size: 40px;
+}
+
+span {
+    font-size: 30px;
+    font-style: oblique;
+    color: rgb(139, 213, 247);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font: 28px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+form input {
+    height: 40px;
+    width: 450px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid rgb(134, 131, 131);
+}
+
+.btn-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.btn-login {
+    border-radius: 3px;
+    height: 40px;
+    background-color: rgb(139, 213, 247);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border: none;
+}
+
+.btn-login:hover {
+    background-color: rgb(181, 222, 241);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.btn-register {
+    height: 40px;
+    width: 80px;
+    background-color: rgb(139, 213, 247);
+    color: black;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn-register:hover {
+    background-color: rgb(193, 226, 241);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
